@@ -56,6 +56,7 @@ var cachcach8 = document.querySelector('#hidden8');
 var cachcach9 = document.querySelector('#hidden9');
 var cachcach10 = document.querySelector('#hidden10');
 var cachcach11 = document.querySelector('#hidden11');
+
 var p1 = document.querySelector('#projet1');
 var p2 = document.querySelector('#projet2');
 var p3 = document.querySelector('#projet3');
