@@ -325,7 +325,7 @@ iframe{
 .flexiflex{
     display: flex;
 }
-section#About_Me p{
+section#About_Me p#intro{
     width: 900px;
     padding: 80px;
     background-color: var(--primary-color);
