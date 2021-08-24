@@ -349,13 +349,25 @@ section#About_Me img#Logorappel{
 }
 .middle{
     transition: .5s ease;
-    opacity: 0;
+    opacity: 0%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    background-color: var(--secondary-color);
+}
+.middle:hover{
+    opacity: 100%;
+}
+.contenant{
+    position: relative;
+    width: 100%;
+}
+.cover{
+    width: 250px;
+    height:  350px;
 }
 
 /*------------------------------------------CV-----------------------------------------*/
