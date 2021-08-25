@@ -341,7 +341,7 @@ section#About_Me img#Logorappel{
     gap: 40px;
     padding: 10px;
 }
-.middle ul.flexons{
+.middle ul.fleex{
     display: flex;
     flex-direction: column;
     gap: 15px;
