@@ -346,6 +346,7 @@ section#About_Me img#Logorappel{
     flex-direction: column;
     gap: 15px;
     font-size: 1em;
+    text-align: center;
 }
 .middle{
     transition: .5s ease;
