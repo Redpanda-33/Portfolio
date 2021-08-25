@@ -277,8 +277,15 @@ div.cards{
 .img_proj{
     height: 13em;
 }
+.img_proj_spe{
+    width:300px;
+}
 
 .img_proj:hover{
+    filter: contrast(15%);
+    cursor: pointer;
+}
+.img_proj_spe:hover{
     filter: contrast(15%);
     cursor: pointer;
 }
@@ -298,7 +305,7 @@ div.cards{
 .hidden-img{
     width: 550px;
 }
-.hidden-img-r33{
+.hidden-img-spe{
     width: 300px;
 }
 .img-hackathon{
