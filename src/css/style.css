@@ -347,6 +347,7 @@ section#About_Me img#Logorappel{
     gap: 15px;
     font-size: 1em;
     text-align: center;
+    padding: 10px;
 }
 .middle{
     transition: .5s ease;
@@ -358,6 +359,7 @@ section#About_Me img#Logorappel{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     background-color: var(--secondary-color);
+    padding: 10px;
 }
 .middle:hover{
     opacity: 100%;
