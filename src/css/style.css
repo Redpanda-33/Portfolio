@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 nav{
     background-color: var(--heading-color);
@@ -69,7 +69,7 @@ div.navbar_logo{
 }
 
 
-/*______________small devices_______________*/
+/*______________Small Devices_______________*/
     @media screen and (max-width:767.98px){
         .navbar_links{
             display: flex;
@@ -112,7 +112,7 @@ div.navbar_logo{
             letter-spacing: 5px;
         }
 
-/*______________toggle menu________________*/
+/*______________Toggle Menu________________*/
 
         .burger{
             display: block;
@@ -165,7 +165,7 @@ div.navbar_logo{
         .show-nav .bar::after {
             transform: rotate(-45deg);
         }
-/*___________bonus-animations______________*/
+/*___________Bonus-Animations______________*/
 
          .show-nav .first{
             transition: all 1s ease-out;
@@ -187,7 +187,7 @@ div.navbar_logo{
     }
 
 
-/*_____________medium devices________________*/
+/*_____________Medium Devices________________*/
 
 @media screen and (min-width:768px){
     .navbar_link > a::after{
@@ -257,6 +257,7 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
   }
+/*--------------------------------------Accueil------------------------------------*/
 
 /*---------------------Projects Cards + Overlay projects---------------------------*/
 section#Projets{
@@ -280,45 +281,28 @@ div.cards{
 .img_proj_spe{
     width:300px;
 }
-
 .img_proj:hover{
     filter: contrast(15%);
     cursor: pointer;
 }
+
 .img_proj_spe:hover{
     filter: contrast(15%);
     cursor: pointer;
 }
-.hidden{
-    display: none;
-    position: fixed;
-    background-color: #050008b2;
-    color: #b7dfec;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+/*.hidden{
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    
 }
-.hidden-img{
-    width: 550px;
-}
-.hidden-img-spe{
-    width: 300px;
-}
-.img-hackathon{
-    height: 25vw;
-}
-iframe{
-    width: 60%;
-    height: 890px;
-}
-/*------------------------------Bouton de retour haut de page--------------------------*/
+.hidden:hover{
+    opacity: 100%;
+}*/
+/*---------------------------Going Back To The Top Buton--------------------------*/
 #btn-hdp{
     position: fixed;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--font-color);
     border-radius: 50%;
     right: 0;
@@ -365,7 +349,7 @@ section#About_Me img#Logorappel{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 10px;
 }
 .middle:hover{
@@ -379,9 +363,18 @@ section#About_Me img#Logorappel{
     width: 250px;
     height:  350px;
 }
-
-/*------------------------------------------CV-----------------------------------------*/
-section#CV{
-    margin-top: 50px;
-    margin-bottom: 50px;
+/*--------------------------------------Page Projet------------------------------------*/
+.ProjectFlex{
+    display: flex;
+    flex-direction: column; 
+    gap: 2.5em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+.ProjectsPage{
+   display: flex;
+   flex-direction: row; 
+}
+.img_proj_spe_page{
+    width: 25em ;
 }
